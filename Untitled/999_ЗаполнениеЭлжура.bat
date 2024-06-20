@@ -197,22 +197,17 @@ nircmd setcursor 1700 635
 nircmd wait %_wait%
 nircmd sendmouse right click
 nircmd wait %_wait%
-nircmd setcursor 1700 635
-nircmd movecursor 0 25
-nircmd movecursor 0 25
-nircmd movecursor 0 25
-nircmd movecursor 0 25
-nircmd movecursor 0 25
-nircmd movecursor 0 25
-nircmd movecursor 0 25
-nircmd movecursor 0 25
-nircmd movecursor 0 25
-nircmd movecursor 0 25
-nircmd movecursor 0 25
-nircmd movecursor 0 25
-nircmd movecursor 0 25
-nircmd movecursor 0 10
-
+nircmd setcursor 1700 970
+nircmd wait %_wait%
+nircmd sendkeypress %_ENTER%
+nircmd wait %_wait%
+nircmd sendkeypress %_WIN%+%_B%
+nircmd sendkeypress %_TAB%
+nircmd sendkeypress %_TAB%
+nircmd sendkeypress %_TAB%
+nircmd sendkeypress %_TAB%
+nircmd sendkeypress %_arrow.RIGHT%
+nircmd sendkeypress %_ENTER%
 
 ::)
 ::nircmd wait 1000
