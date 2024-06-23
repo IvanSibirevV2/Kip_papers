@@ -176,7 +176,7 @@ nircmd sendkeypress %_ENTER%
 nircmd wait %_wait%
 nircmd sendkeypress %_SHIFT%+%_ENTER%
 nircmd wait %_wait%
-nircmd wait 2000
+nircmd wait %_wait%
 nircmd sendkeypress %_WIN%+%_B%
 nircmd sendkeypress %_TAB%
 nircmd sendkeypress %_TAB%
@@ -209,7 +209,7 @@ nircmd sendkeypress %_TAB%
 nircmd sendkeypress %_arrow.RIGHT%
 nircmd sendkeypress %_ENTER%
 
-::)
+
 ::nircmd wait 1000
 ::nircmd sendkeypress %_WIN%+%_B%
 ::nircmd sendkeypress %_TAB%
