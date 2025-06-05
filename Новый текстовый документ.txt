@@ -1,6 +1,4 @@
-qwfgehfwqhgfj
-dqhwjefduwqfdjfqjdfjqh
-вфывфывф
-ыфвфвф
-asdsada
-asdas
+qdwq
+C: \Users\SibNout2023\WorkPlate\GitHub0ll\Kip_papers>git config --global core.editor "C: /Program Files/GitExtensions/GitExtensions.exe" fileeditor
+
+git config --global core.editor "C: /Program Files/GitExtensions/GitExtensions.exe"
